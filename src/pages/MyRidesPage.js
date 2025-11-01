@@ -3,22 +3,10 @@ import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { FaMapMarkerAlt, FaClock, FaRupeeSign, FaCheckCircle } from "react-icons/fa";
 
-const MyRidesPage = () => {
-  const [rides, setRides] = useState([]);
-  const navigate = useNavigate();
 
-  useEffect(() => {
-    const loggedUser = JSON.parse(localStorage.getItem("vroomUser"));
-    if (!loggedUser) {
-      alert("⚠️ Please login to view your rides.");
-      navigate("/login");
-    } else {
-      const storedRides = JSON.parse(localStorage.getItem("vroomRides")) || demoRides;
-      setRides(storedRides);
-    }
-  }, [navigate]);
 
-  // Example demo rides (for testing)
+
+// Example demo rides (for testing)
   const demoRides = [
     {
       id: 1,
@@ -48,6 +36,25 @@ const MyRidesPage = () => {
       status: "Upcoming",
     },
   ];
+
+  
+const MyRidesPage = () => {
+  const [rides, setRides] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const loggedUser = JSON.parse(localStorage.getItem("vroomUser"));
+    if (!loggedUser) {
+      alert("⚠️ Please login to view your rides.");
+      navigate("/login");
+    } else {
+      const storedRides = JSON.parse(localStorage.getItem("vroomRides")) || demoRides;
+      setRides(storedRides);
+    }
+     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [navigate]);
+
+  
 
   return (
     <Container className="py-5">

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button, Form, Badge } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { FaUserCircle, FaEnvelope, FaPhone, FaEdit } from "react-icons/fa";
+import { FaUserCircle,  FaEdit } from "react-icons/fa";
 
 const ProfilePage = () => {
   const [user, setUser] = useState(null);

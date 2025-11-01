@@ -143,8 +143,8 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
-import { FaUserCircle, FaBell, FaShoppingCart } from "react-icons/fa";
-import { Navbar, Nav, Container, Button, Dropdown, Badge } from "react-bootstrap";
+import { FaUserCircle, FaShoppingCart } from "react-icons/fa";
+import { Navbar, Nav, Container, Button, Dropdown } from "react-bootstrap";
 
 
 const VroomNavbar = () => {
