@@ -36,3 +36,420 @@
     transform: rotate(360deg);
   }
 }
+
+/* 🌟 Global Theme for Vroom */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  color: #111111;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111111 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #FFD700 !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #111111, #FFD700);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero button {
+  background-color: white;
+  color: #111111;
+  font-weight: 600;
+  border: none;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #FFD700;
+  color: #111111;
+}
+
+/* About Section */
+.about-section h2 {
+  color: #111111;
+  font-weight: 600;
+}
+
+.about-section p {
+  color: #555555;
+  font-size: 1.1rem;
+}
+
+/* FAQs */
+.accordion-button {
+  background-color: #FFD700 !important;
+  color: #111111 !important;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #FFD700;
+  border: none;
+  color: #111111;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FFC107;
+  color: #000;
+}
+
+.btn-success {
+  background-color: #111111;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #333333;
+}
+
+/* Footer */
+footer {
+  background-color: #111111;
+  color: #FFD700;
+  font-size: 0.9rem;
+}
+
+/* Form Styling */
+form label {
+  font-weight: 500;
+  color: #111111;
+}
+
+form input {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Page Headings */
+h2 {
+  font-weight: 600;
+  color: #111111;
+}
+
+/* Card/Container Shadow */
+.container {
+  border-radius: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
+
+
+/* ==================== Footer Section ==================== */
+.footer {
+  background-color: #111111;
+  color: #fff;
+  position: relative;
+}
+
+.footer h4,
+.footer h5 {
+  font-weight: 600;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #FFD700;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  color: #FFD700;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.footer button {
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer button:hover {
+  background-color: #FFD700;
+  color: #111111;
+}
+
+/* ============== Book Ride Page ============== */
+.card {
+  border-radius: 15px;
+}
+
+.btn-warning {
+  background-color: #FFD700 !important;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #ffcc00 !important;
+  transform: scale(1.05);
+}
+
+.text-muted {
+  color: #666 !important;
+}
+
+
+/* ============== Auth Pages ============== */
+.card {
+  border-radius: 16px;
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.card h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-control {
+  background-color: #2a2a2a !important;
+  border: 1px solid #444;
+  color: #fff !important;
+}
+
+.form-control::placeholder {
+  color: #888 !important;
+}
+
+.btn-warning {
+  background-color: #FFD700 !important;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #ffcc00 !important;
+  transform: scale(1.05);
+}
+
+/* ============== Dashboard ============== */
+.stat-card {
+  border-radius: 14px;
+  background: #1b1b1b;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(255, 215, 0, 0.2);
+}
+
+.table-dark {
+  background-color: #121212;
+  border-radius: 8px;
+}
+
+.table-dark th,
+.table-dark td {
+  color: #eee;
+}
+
+.table-dark tr:hover {
+  background-color: #222;
+}
+
+.btn-outline-light:hover {
+  background-color: #FFD700 !important;
+  color: #111 !important;
+}
+
+h4, h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============== Cart Page ============== */
+.cart-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.cart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
+
+.cart-card h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-check-label {
+  color: #eee;
+}
+
+.form-check-input:checked {
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+
+/* ============== Payment Page ============== */
+.payment-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(255, 215, 0, 0.25);
+}
+
+.payment-card h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.payment-card input {
+  background-color: #111 !important;
+  color: #fff !important;
+  border: 1px solid #FFD700 !important;
+}
+
+.payment-card input::placeholder {
+  color: #bbb !important;
+}
+
+/* ============== Ride Success Page ============== */
+.success-card {
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+.success-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(255, 215, 0, 0.25);
+}
+
+.animate-bounce {
+  animation: bounce 1.8s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.success-card h2, .success-card h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============== Map Section ============== */
+.cart-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.cart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
+
+#map {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #map {
+    height: 300px !important;
+    margin-top: 20px;
+  }
+}
+.cart-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.cart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  #map {
+    height: 300px !important;
+    margin-top: 20px;
+  }
+}
+
+.navbar {
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+  transition: 0.3s;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card {
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
